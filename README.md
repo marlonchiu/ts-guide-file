@@ -1,6 +1,8 @@
-# 项目参考
+# 仓库说明
 
-[TS 官方文档](https://www.tslang.cn/docs)
+## 项目参考
+
+* [TS 官方文档](https://www.tslang.cn/docs)
 
 ## 核心内容
 

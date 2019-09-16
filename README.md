@@ -9,7 +9,8 @@
 * **基于TypeScript从零重构axios**
 
 ## 仓库结构
-
---|
- --| ts-axios-doc 学习电子书
- --| ts-axios-demo 基础知识引导
+src
+├── ts-axios-doc  #学习电子书
+├── ts-axios-demo  # 基础知识回看
+├── ts-axios-advanced  # 进阶学习实战 基于TypeScript从零重构axios
+```

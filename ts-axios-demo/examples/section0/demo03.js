@@ -1,3 +1,4 @@
+"use strict";
 // 定义class类
 var User = /** @class */ (function () {
     function User(firstName, lastName) {

@@ -1,3 +1,4 @@
+"use strict";
 // let name1 :string = 'Yee'
 // let age1:number = 32
 // let sentence1:string = `Hello, my name is ${name1}.

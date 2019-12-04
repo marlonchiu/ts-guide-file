@@ -1,3 +1,4 @@
+"use strict";
 function greeterB(person) {
     return 'Hello, ' + person.firstName + ' ' + person.lastName;
 }

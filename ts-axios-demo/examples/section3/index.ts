@@ -18,6 +18,7 @@ interface Square {
 interface SquareConfig {
   color?: string
   width?: number
+  [propName:string]: any // 额外属性
 }
 function createSquare(config: SquareConfig): Square {
   let newSquare = { color: 'red', area: 100 }
@@ -30,7 +31,7 @@ function createSquare(config: SquareConfig): Square {
   }
   return newSquare
 }
-let mySquare = createSquare({ color: 'black' })
+let mySquare = createSquare({ colour: 'black',width: 10 })
 
 // 只读属性 readonly
 interface Point {
@@ -49,3 +50,5 @@ a = ro // error!
 
 // 要修改只能使用类型断言
 a = ro as number[]
+
+// 额外属性
